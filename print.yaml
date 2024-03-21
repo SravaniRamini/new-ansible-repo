@@ -1,0 +1,4 @@
+- name: printing the statement
+  hosts: localhost
+  ansible.buitin.debug:
+    msg: "I am laerning ansible"
