@@ -1,13 +1,6 @@
 192.2.3.4
 192.3.4.5
 
-[localhost]
-localhost
-
-[localhost:vars]
-Name: "Sravani"
-Company: "TCS"
-
 [web]
 52.3.108.207
 
