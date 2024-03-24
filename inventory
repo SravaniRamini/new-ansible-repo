@@ -1,6 +1,10 @@
 [localhost]
-52.3.108.207
+localhost
 
 [localhost:vars]
 Name: "Sravani"
 Company: "TCS"
+
+[web]
+192.2.3.4
+192.3.4.5
