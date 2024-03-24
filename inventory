@@ -1,7 +1,7 @@
-[localhost]
-localhost
+[web]
+34.207.228.240
 
-[localhost:vars]
+[web:vars]
 Name: "Sravani"
 Company: "TCS"
 
