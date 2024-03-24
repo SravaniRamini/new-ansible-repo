@@ -1,5 +1,5 @@
 - name: ansible varaiables from file
-  hosts: web
+  hosts: localhost
   vars_files:
   - variables.yaml
   tasks:
