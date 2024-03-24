@@ -1,6 +1,6 @@
 - name: ansible varaiables from file
   hosts: web
-  variables_file:
+  vars_files:
   - variables.yaml
   tasks:
   - name: printing varaibles from file
