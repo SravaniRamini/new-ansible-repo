@@ -1,5 +1,6 @@
 - name: ansible playbook example to fetch the variables from inventory
   hosts: localhost
+  become: yes
   tasks:
   - name: printing the variables 
     ansible.builtin.debug:
