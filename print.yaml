@@ -1,4 +1,6 @@
 - name: printing the statement
   hosts: localhost
-  ansible.buitin.debug:
-    msg: "I am laerning ansible"
+  tasks:
+  - name: print hello world
+    ansible.builtin.debug:
+      msg: "Hello world"

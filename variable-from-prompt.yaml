@@ -1,0 +1,15 @@
+- name: Ansible playbook to fetch variable from prompt
+  hosts: localhost
+  vars_prompt:
+  - name: username
+    prompt: please enter your username
+    private: false
+
+  - name: password
+    prompt: please enter your password
+    private: true
+    
+  tasks:
+  - name: printing the entered values
+    ansible.builtin.debug:
+    msg: "username is {{username}} and password is {{password}}"
